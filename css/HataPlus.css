@@ -1,3 +1,7 @@
+.body {
+    cursor: url(../img/cursor2.cur), auto;
+}
+
 .menu {
     background-color: #1f1f56;
     display: flex;
@@ -16,30 +20,32 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.link  {
+.link {
     text-align: left;
 }
 
-.link li, a{
- text-decoration: none;
- list-style: none;
- color: #b1b1d2;
- font-family: Arial, sans-serif;
+.link li,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #b1b1d2;
+    font-family: Arial, sans-serif;
+    cursor: url(../img/cursor3.cur), auto;
 }
 
 .link a {
- text-decoration: none;
- list-style: none;
- color: #b1b1d2;
- font-family: Arial, sans-serif;
- padding-right: 12px;
+    text-decoration: none;
+    list-style: none;
+    color: #b1b1d2;
+    font-family: Arial, sans-serif;
+    padding-right: 12px;
 }
 
 .link ul {
     padding: 0;
 }
 
-.link li:hover > a{
+.link li:hover>a {
     color: #fd8300;
 }
 
@@ -59,6 +65,7 @@
     list-style-type: none;
     text-decoration: none;
     padding-left: 25px;
+    cursor: url(../img/cursor3.cur), auto;
 }
 
 .main-info {
@@ -73,6 +80,10 @@
     padding-top: 30px;
 }
 
+.logo img {
+    cursor: url(../img/cursor3.cur), auto;
+}
+
 .contacts {
     color: #25252c;
     padding-bottom: 30px;
@@ -85,6 +96,11 @@
     font-size: 18px;
 }
 
+.contacts a:hover {
+    color: #fd8300;
+    text-decoration: underline;
+}
+
 .poshta {
     padding-bottom: 30px;
     padding-top: 35px;
@@ -93,6 +109,11 @@
 
 .poshta a {
     color: #25252c;
+}
+
+.poshta a:hover {
+    color: #fd8300;
+    text-decoration: underline;
 }
 
 .button-call a {
@@ -117,7 +138,7 @@
 }
 
 .button-call a:hover {
-   background-color: #fd8300;
+    background-color: #fd8300;
 }
 
 .picture {
@@ -199,6 +220,11 @@
     text-decoration: underline;
 }
 
+.main-text li:hover {
+    color: #666;
+    text-decoration: none;
+}
+
 .main-menu {
     width: 100%;
     max-width: 220px;
@@ -207,11 +233,11 @@
 }
 
 .main-menu li {
-text-decoration:none ;
-list-style-type: none;
-padding-left: 16px;
-font-family: Arial, Helvetica, sans-serif;
-width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
 .teg:hover {
@@ -225,6 +251,7 @@ width: 100%;
     text-decoration: none;
     color: #25252c;
     font-size: 14px;
+    cursor: url(../img/cursor3.cur), auto;
 }
 
 .category {
@@ -252,19 +279,46 @@ width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.montreal img,
+.galgary img,
+.edmont img {
+    cursor: url(../img/cursor3.cur), auto; 
+}
+
+.edmont h4,
+.galgary h4,
+.montreal h4 {
+    cursor: url(../img/cursor3.cur), auto;
+}
+
 .edmont p {
     color: #9999a6;
     font-size: 13px;
+    margin: 0;
+}
+
+.edmont h4:hover {
+    text-decoration: underline;
 }
 
 .montreal p {
     color: #9999a6;
     font-size: 13px;
+    margin: 0;
+}
+
+.montreal h4:hover {
+    text-decoration: underline;
 }
 
 .galgary p {
     color: #9999a6;
     font-size: 13px;
+    margin: 0;
+}
+
+.galgary h4:hover {
+    text-decoration: underline;
 }
 
 .montreal {
@@ -306,7 +360,7 @@ width: 100%;
 }
 
 
-.footer li:hover >a {
+.footer li:hover>a {
     color: #fd8300;
 }
 
@@ -335,8 +389,18 @@ width: 100%;
     padding-top: 40px;
 }
 
+.pochta a:hover {
+    color: #fd8300;
+    text-decoration: underline;
+}
+
 .contact {
     padding-top: 40px;
+}
+
+.contact a:hover {
+    color: #fd8300;
+    text-decoration: underline;
 }
 
 .pochta a {
