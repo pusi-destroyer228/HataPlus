@@ -1,0 +1,361 @@
+.menu {
+    background-color: #1f1f56;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-info {
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link  {
+    text-align: left;
+}
+
+.link li, a{
+ text-decoration: none;
+ list-style: none;
+ color: #b1b1d2;
+ font-family: Arial, sans-serif;
+}
+
+.link a {
+ text-decoration: none;
+ list-style: none;
+ color: #b1b1d2;
+ font-family: Arial, sans-serif;
+ padding-right: 12px;
+}
+
+.link ul {
+    padding: 0;
+}
+
+.link li:hover > a{
+    color: #fd8300;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu {
+    margin: -10px -10px 0px -10px;
+}
+
+.icons {
+    text-align: right;
+}
+
+.icons li {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 25px;
+}
+
+.main-info {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.contacts {
+    color: #25252c;
+    padding-bottom: 30px;
+    padding-top: 35px;
+    line-height: 1.3em;
+}
+
+.contacts a {
+    color: #25252c;
+    font-size: 18px;
+}
+
+.poshta {
+    padding-bottom: 30px;
+    padding-top: 35px;
+    line-height: 1.3em;
+}
+
+.poshta a {
+    color: #25252c;
+}
+
+.button-call a {
+    border: 3px solid #fd8300;
+    border-radius: 30px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #25252c;
+    max-height: 52px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.button-call {
+    padding-top: 50px;
+}
+
+.button-call a {
+    color: #25252c;
+}
+
+.button-call a:hover {
+   background-color: #fd8300;
+}
+
+.picture {
+    text-align: center;
+    background-image: url(../img/Rectangle\ 9.png);
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin: 0 -10px 0 -10px;
+}
+
+.month {
+    font-size: 30px;
+    margin: 0 auto;
+    color: #fff;
+    padding-bottom: 12px;
+}
+
+.month b {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.month {
+    font-family: "Roboto Slab";
+}
+
+.pid-klych {
+    font-size: 14px;
+    margin: 0 auto;
+    color: #fff;
+    padding-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.how-much {
+    font-size: 40px;
+    margin: 0 auto;
+    color: #fd8300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.main-info {
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text h1 {
+    font-size: 30px;
+    font-family: Arial, serif;
+}
+
+.main-text p {
+    font-size: 14px;
+    line-height: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-text {
+    max-width: 670px;
+}
+
+.main-text a {
+    color: #fd8300;
+}
+
+.main-text ul {
+    padding: 0;
+}
+
+.main-text li {
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+.main-menu {
+    width: 100%;
+    max-width: 220px;
+    text-decoration: none;
+    padding-left: 72px;
+}
+
+.main-menu li {
+text-decoration:none ;
+list-style-type: none;
+padding-left: 16px;
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+}
+
+.teg:hover {
+    background-color: #fd8300;
+}
+
+.teg {
+    background-color: #e4e4ec;
+    padding-top: 17px;
+    padding-bottom: 14px;
+    text-decoration: none;
+    color: #25252c;
+    font-size: 14px;
+}
+
+.category {
+    background-color: #1f1f56;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-bottom: 13px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.popular-project h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.house {
+    display: flex;
+    padding-bottom: 45px;
+}
+
+.montreal,
+.galgary,
+.edmont {
+    max-width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.edmont p {
+    color: #9999a6;
+    font-size: 13px;
+}
+
+.montreal p {
+    color: #9999a6;
+    font-size: 13px;
+}
+
+.galgary p {
+    color: #9999a6;
+    font-size: 13px;
+}
+
+.montreal {
+    padding-left: 28px;
+}
+
+.galgary {
+    padding-left: 28px;
+}
+
+.shape2 {
+    padding-left: px;
+}
+
+.footer {
+    background-color: #ededf5;
+    display: flex;
+}
+
+.footer a {
+    color: #000;
+    font-size: 14px;
+}
+
+.footer li {
+    list-style-type: none;
+    line-height: 1.4em;
+}
+
+.footer ul {
+    padding-top: 40px;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-left: 0;
+}
+
+.footer-2ul {
+    padding-bottom: 55px;
+}
+
+
+.footer li:hover >a {
+    color: #fd8300;
+}
+
+.footer-ul {
+    padding-left: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-ul a {
+    color: #666;
+}
+
+.footer-2ul a {
+    color: #666;
+}
+
+.footer23 {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pochta {
+    padding-top: 40px;
+}
+
+.contact {
+    padding-top: 40px;
+}
+
+.pochta a {
+    font-size: 16px;
+}
+
+.contact a {
+    font-size: 18px;
+}
+
+.footer2 {
+    background-color: #dcdce6;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #9999a6;
+    font-size: 13px;
+}
+
+.footer2 p {
+    margin: 0;
+}
