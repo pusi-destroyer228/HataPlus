@@ -25,7 +25,7 @@
 }
 
 .link li,
-a {
+link a {
     text-decoration: none;
     list-style: none;
     color: #b1b1d2;
@@ -38,7 +38,8 @@ a {
     list-style: none;
     color: #b1b1d2;
     font-family: Arial, sans-serif;
-    padding-right: 12px;
+    padding-right: 25px;
+    font-size: 14px;
 }
 
 .link ul {
@@ -85,20 +86,40 @@ a {
 }
 
 .contacts {
-    color: #25252c;
-    padding-bottom: 30px;
     padding-top: 35px;
-    line-height: 1.3em;
+    display: flex;
+}
+
+.contacts li {
+    list-style: none;
+    padding: 0 0 12px 0;
+}
+
+.contacts ul {
+    margin: 0;
+    padding-left: 0;
 }
 
 .contacts a {
     color: #25252c;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .contacts a:hover {
     color: #fd8300;
     text-decoration: underline;
+}
+
+.vertical-line {
+    display: inline;
+    height: 51px;
+    border-left: 2px solid #e4e4ec;
+    margin-top: 31px;
+}
+
+.poshta ul {
+    padding: 0;
 }
 
 .poshta {
@@ -107,8 +128,18 @@ a {
     line-height: 1.3em;
 }
 
+.poshta li {
+    padding: 0 0 12px 0;
+}
+
+.poshta ul {
+    list-style: none;
+    margin: 0;
+}
+
 .poshta a {
     color: #25252c;
+    text-decoration: none;
 }
 
 .poshta a:hover {
@@ -117,7 +148,7 @@ a {
 }
 
 .button-call a {
-    border: 3px solid #fd8300;
+    border: 2px solid #fd8300;
     border-radius: 30px;
     background-color: #ffffff;
     text-decoration: none;
@@ -147,6 +178,7 @@ a {
     padding-top: 60px;
     padding-bottom: 40px;
     margin: 0 -10px 0 -10px;
+    background-size: cover;
 }
 
 .month {
@@ -154,6 +186,7 @@ a {
     margin: 0 auto;
     color: #fff;
     padding-bottom: 12px;
+    text-transform: uppercase;
 }
 
 .month b {
@@ -184,6 +217,7 @@ a {
     justify-content: space-between;
     max-width: 960px;
     margin: 0 auto;
+    padding-top: 23px;
 }
 
 .main-info {
@@ -194,7 +228,9 @@ a {
 
 .main-text h1 {
     font-size: 30px;
-    font-family: Arial, serif;
+    color: #24242b;
+    margin: 0;
+    font-family: "Roboto Slab";
 }
 
 .main-text p {
@@ -203,7 +239,7 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.main-text {
+.main-text article {
     max-width: 670px;
 }
 
@@ -220,40 +256,129 @@ a {
     text-decoration: underline;
 }
 
+.main-text a {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .main-text li:hover {
     color: #666;
     text-decoration: none;
 }
 
+.line {
+    margin: 22px 0 15px;
+    border-bottom: 1px solid #e4e4ec;
+}
+
 .main-menu {
-    width: 100%;
-    max-width: 220px;
-    text-decoration: none;
-    padding-left: 72px;
+    padding: 0 0 0 27px;
 }
 
-.main-menu li {
-    text-decoration: none;
-    list-style-type: none;
-    padding-left: 16px;
+.main-menu p {
+    margin: 0;
+    padding: 11px 15px;
+    width: 190px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    line-height: 24px;
+    background-color: #1f1f56;
+    border-radius: 3px 3px 0 0;
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
 }
 
-.teg:hover {
-    background-color: #fd8300;
+.main-menu a {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.teg {
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-li {
+    padding: 0 15px;
     background-color: #e4e4ec;
-    padding-top: 17px;
-    padding-bottom: 14px;
-    text-decoration: none;
+    box-shadow: inset 0px -1px 0px #cecedd;
+}
+
+.main-li:last-child {
+    box-shadow: none;
+    border-radius: 0 0 3px 3px;
+}
+
+.main-li:hover {
+    background-color: #fd8300;
+    cursor: url(../img/cursor-poin.cur), auto;
+}
+
+.main-li:hover .sub-menu {
+    display: block;
+}
+
+.main-li:hover .main-headerline {
+    color: #fff;
+    cursor: url(../img/cursor-poin.cur), auto;
+}
+
+.main-headerline {
+    display: block;
+    position: relative;
+    padding: 11px 0;
     color: #25252c;
     font-size: 14px;
-    cursor: url(../img/cursor3.cur), auto;
+    text-decoration: none;
+    line-height: 24px;
+    transition: .5s ease all;
 }
 
+.main-headerline::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    width: 7px;
+    height: 7px;
+    box-sizing: border-box;
+    border: 3px solid #666;
+    border-left: none;
+    border-top: none;
+    transform: rotate(-45deg);
+    transition: 1s ease all;
+}
+
+.main-li:hover .main-headerline::before {
+    border: 3px solid #fff;
+    border-right: none;
+    border-top: none;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.sub-menu li {
+    margin: 0 -15px;
+    padding: 11px 15px 11px 30px;
+    background-color: #e4e4ec;
+}
+
+.sub-menu li:hover {
+    background-color: #cecedd;
+    cursor: url(../img/cursor-poin.cur), auto;
+}
+
+.sub-menu a {
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 24px;
+    cursor: url(../img/cursor-poin.cur), auto;
+}
 .category {
     background-color: #1f1f56;
     text-decoration: none;
@@ -261,9 +386,12 @@ a {
     padding-bottom: 13px;
     color: #fff;
     font-size: 16px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 .popular-project h2 {
+    color: #24242b;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -282,13 +410,14 @@ a {
 .montreal img,
 .galgary img,
 .edmont img {
-    cursor: url(../img/cursor3.cur), auto; 
+    cursor: url(../img/cursor3.cur), auto;
 }
 
 .edmont h4,
 .galgary h4,
 .montreal h4 {
     cursor: url(../img/cursor3.cur), auto;
+    color: #1f1f56;
 }
 
 .edmont p {
@@ -336,11 +465,14 @@ a {
 .footer {
     background-color: #ededf5;
     display: flex;
+    margin: 0 -10px;
 }
 
 .footer a {
     color: #000;
     font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .footer li {
@@ -378,7 +510,7 @@ a {
 }
 
 .footer23 {
-    max-width: 960px;
+    max-width: 935px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -418,8 +550,10 @@ a {
     text-align: center;
     color: #9999a6;
     font-size: 13px;
+    margin: 0 -10px;
 }
 
 .footer2 p {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
