@@ -94,6 +94,10 @@ link a {
     display: flex;
 }
 
+.contacts img {
+    padding-right: 10px;
+}
+
 .contacts li {
     list-style: none;
     padding: 0 0 12px 0;
@@ -108,6 +112,7 @@ link a {
     color: #25252c;
     font-size: 18px;
     text-decoration: none;
+    cursor: url(../img/cursor3.cur), auto;
 }
 
 .contacts a:hover {
@@ -132,6 +137,10 @@ link a {
     line-height: 1.3em;
 }
 
+.poshta img {
+    padding-right: 10px;
+}
+
 .poshta li {
     padding: 0 0 12px 0;
 }
@@ -144,6 +153,7 @@ link a {
 .poshta a {
     color: #25252c;
     text-decoration: none;
+    cursor: url(../img/cursor3.cur), auto;
 }
 
 .poshta a:hover {
@@ -166,6 +176,7 @@ link a {
 
 .button-call {
     padding-top: 50px;
+    cursor: url(../img/cursor3.cur), auto;
 }
 
 .button-call a {
@@ -260,6 +271,7 @@ link a {
 }
 
 .main-text a {
+    cursor: url(../img/cursor3.cur), auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -308,6 +320,7 @@ link a {
     padding: 0 15px;
     background-color: #e4e4ec;
     box-shadow: inset 0px -1px 0px #cecedd;
+    cursor: url(../img/cursor3.cur), auto;
 }
 
 .main-li:last-child {
@@ -338,6 +351,7 @@ link a {
     text-decoration: none;
     line-height: 24px;
     transition: .5s ease all;
+    cursor: url(../img/cursor3.cur), auto;
 }
 
 .main-headerline::before {
