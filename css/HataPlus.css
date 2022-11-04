@@ -290,6 +290,10 @@ link a {
     text-decoration: none;
 }
 
+.main-text a:hover {
+    text-decoration: none;
+}
+
 .line {
     margin: 22px 0 15px;
     border-bottom: 1px solid #e4e4ec;
@@ -326,6 +330,7 @@ link a {
 }
 
 .main-li {
+    cursor: pointer;
     padding: 0 15px;
     background-color: #e4e4ec;
     box-shadow: inset 0px -1px 0px #cecedd;
@@ -344,6 +349,10 @@ link a {
 
 .main-li:hover .sub-menu {
     display: block;
+}
+
+.main-li sub:hover {
+    border-bottom: #666;
 }
 
 .main-li:hover .main-headerline {
