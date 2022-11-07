@@ -320,7 +320,10 @@ link a {
 .main-menu a {
     font-family: Arial, Helvetica, sans-serif;
     cursor: url(../img/cursor3.cur), auto;
-    cursor: pointer;
+}
+
+.main-menu nav {
+    cursor: url(../img/cursor3.cur), auto;
 }
 
 .main-menu ul {
@@ -334,6 +337,14 @@ link a {
     padding: 0 15px;
     background-color: #e4e4ec;
     box-shadow: inset 0px -1px 0px #cecedd;
+    cursor: url(../img/cursor3.cur), auto;
+}
+
+.main-li a {
+    cursor: url(../img/cursor3.cur), auto;
+}
+
+.main-headerline:hover {
     cursor: url(../img/cursor3.cur), auto;
 }
 
@@ -351,7 +362,7 @@ link a {
     display: block;
 }
 
-.main-li sub:hover {
+.main-li sub::after {
     border-bottom: #666;
 }
 
