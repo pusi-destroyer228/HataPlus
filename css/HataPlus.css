@@ -98,15 +98,15 @@ a.inst {
 }
 
 a.fb:hover {
-    background-position: 0 -20rem;
+    background-position: 0 -2.25rem;
 }
 
 a.tw:hover {
-    background-position: 6.3rem -20rem;
+    background-position: 6.3rem -2.25rem;
 }
 
 a.inst:hover {
-    background-position: 12rem -20rem;
+    background-position: 12rem -2.25rem;
 }
 
 .icons li {
@@ -115,7 +115,7 @@ a.inst:hover {
 }
 
 .tw {
-    padding: 2px 0 0 0 ;
+    padding: 2px 0 0 0;
 }
 
 .icons li {
@@ -450,7 +450,7 @@ a.inst:hover {
 }
 
 #cat3 {
-    border-bottom: 1px solid  #cecedd;
+    border-bottom: 1px solid #cecedd;
 }
 
 .sub-menu {
@@ -474,6 +474,7 @@ a.inst:hover {
     text-decoration: none;
     line-height: 24px;
 }
+
 .category {
     background-color: #1f1f56;
     text-decoration: none;
@@ -518,7 +519,7 @@ a.inst:hover {
     cursor: url(../img/cursor3.cur), auto;
     color: #1f1f56;
     margin: 0;
-    padding: 12px 0 10px 0 ;
+    padding: 12px 0 10px 0;
 }
 
 .edmont p {
@@ -685,6 +686,6 @@ a.inst:hover {
 }
 
 @font-face {
-    font-family: "RobotoSlab" ;
+    font-family: "RobotoSlab";
     src: url(../fonts/RobotoSlab-Bold.ttf);
 }
