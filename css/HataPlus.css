@@ -500,6 +500,10 @@ a.inst:hover {
     padding-bottom: 45px;
 }
 
+.house small {
+    font-size: 8px;
+}
+
 .montreal,
 .galgary,
 .edmont {
