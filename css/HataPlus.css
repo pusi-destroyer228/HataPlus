@@ -1,4 +1,5 @@
 .body {
+    margin: 0;
     cursor: url(../img/cursor2.cur), auto;
 }
 
@@ -44,6 +45,12 @@ link a {
 
 .link ul {
     padding: 0;
+    margin: 0;
+}
+
+.link li {
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 .link li:hover>a {
@@ -60,6 +67,51 @@ link a {
 
 .icons {
     text-align: right;
+}
+
+.icons ul {
+    margin: 0;
+    padding: 0;
+}
+
+.icons a {
+    transition: 0.5s;
+    display: block;
+    background-image: url(../img/sprite.png);
+}
+
+a.fb {
+    width: 10px;
+    height: 19px;
+}
+
+a.tw {
+    background-position: 6.3rem 0;
+    width: 18px;
+    height: 15px;
+}
+
+a.inst {
+    background-position: 12rem 0;
+    width: 19px;
+    height: 19px;
+}
+
+a.fb:hover {
+    background-position: 0 -20rem;
+}
+
+a.tw:hover {
+    background-position: 6.3rem -20rem;
+}
+
+a.inst:hover {
+    background-position: 12rem -20rem;
+}
+
+.icons li {
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 .tw {
@@ -232,6 +284,10 @@ link a {
     font-size: 24px;
 }
 
+.how-much sup {
+    font-size: 14px;
+}
+
 .main {
     display: flex;
     justify-content: space-between;
@@ -318,11 +374,11 @@ link a {
 }
 
 .main-menu a {
-    font-family: Arial, Helvetica, sans-serif;
     cursor: url(../img/cursor3.cur), auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.main-menu nav {
+.main-li a {
     cursor: url(../img/cursor3.cur), auto;
 }
 
@@ -333,18 +389,9 @@ link a {
 }
 
 .main-li {
-    cursor: pointer;
     padding: 0 15px;
     background-color: #e4e4ec;
     box-shadow: inset 0px -1px 0px #cecedd;
-    cursor: url(../img/cursor3.cur), auto;
-}
-
-.main-li a {
-    cursor: url(../img/cursor3.cur), auto;
-}
-
-.main-headerline:hover {
     cursor: url(../img/cursor3.cur), auto;
 }
 
@@ -355,20 +402,18 @@ link a {
 
 .main-li:hover {
     background-color: #fd8300;
-    cursor: url(../img/cursor-poin.cur), auto;
 }
 
 .main-li:hover .sub-menu {
     display: block;
 }
 
-.main-li sub::after {
-    border-bottom: #666;
+.main-li sub::before {
+    border-top: #666;
 }
 
 .main-li:hover .main-headerline {
     color: #fff;
-    cursor: url(../img/cursor-poin.cur), auto;
 }
 
 .main-headerline {
@@ -380,7 +425,6 @@ link a {
     text-decoration: none;
     line-height: 24px;
     transition: .5s ease all;
-    cursor: url(../img/cursor3.cur), auto;
 }
 
 .main-headerline::before {
@@ -405,8 +449,13 @@ link a {
     border-top: none;
 }
 
+#cat3 {
+    border-bottom: 1px solid  #cecedd;
+}
+
 .sub-menu {
     display: none;
+    border-bottom: 1px;
 }
 
 .sub-menu li {
@@ -417,7 +466,6 @@ link a {
 
 .sub-menu li:hover {
     background-color: #cecedd;
-    cursor: url(../img/cursor-poin.cur), auto;
 }
 
 .sub-menu a {
@@ -425,7 +473,6 @@ link a {
     font-size: 14px;
     text-decoration: none;
     line-height: 24px;
-    cursor: url(../img/cursor-poin.cur), auto;
 }
 .category {
     background-color: #1f1f56;
