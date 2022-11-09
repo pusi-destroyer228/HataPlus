@@ -173,8 +173,9 @@ a.inst:hover {
 }
 
 .vertical-line {
+    padding-top: 5px;
     display: inline;
-    height: 51px;
+    height: 52px;
     border-left: 1px solid #e4e4ec;
     margin-top: 31px;
 }
