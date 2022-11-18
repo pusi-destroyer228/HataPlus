@@ -3,6 +3,10 @@
     src: url(../fonts/RobotoSlab-Bold.ttf);
 }
 
+body {
+    margin: 0;
+}
+
 .menu {
     background-color: #1f1f56;
     display: flex;
@@ -59,10 +63,6 @@ link a {
 
 .menu ul {
     display: flex;
-}
-
-.menu {
-    margin: 0px -10px 0px -10px;
 }
 
 .icons {
@@ -509,7 +509,6 @@ table {
 .footer {
     background-color: #ededf5;
     display: flex;
-    margin: 0 -10px;
 }
 
 .footer a {
