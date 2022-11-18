@@ -22,6 +22,7 @@ body {
 }
 
 .wrapper {
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -240,6 +241,10 @@ a.inst:hover {
     background-color: #fd8300;
 }
 
+.wrapper {
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
+}
+
 .main h1{
     font-family: "RobotoSlab";
     font-size: 24px;
@@ -320,7 +325,7 @@ table {
 }
 
 .tbody tr {
-    border-top: 1px solid #cdcddd;
+    box-shadow: inset 0px -1px 0px #cecedd;
 }
 
 .tbody tr:hover {
@@ -340,7 +345,9 @@ table {
 .table {
     max-width: 960px;
     width: 100%;
-}
+    border-radius: 3px;
+    overflow: hidden;
+}   
 
 #cat1 {
     text-align: left;
@@ -423,6 +430,10 @@ table {
 
 .house small {
     font-size: 8px;
+}
+
+figure {
+    cursor: url(../img/cursor3.cur), auto;
 }
 
 .montreal,
