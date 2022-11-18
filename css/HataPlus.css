@@ -75,7 +75,7 @@ link a {
 }
 
 .icons a {
-    transition: 0.5s;
+    transition: 0.4Es;
     display: block;
     background-image: url(../img/sprite.png);
 }
