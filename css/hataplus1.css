@@ -13,7 +13,7 @@
 body {
     margin: 0;
     font-family: "Arial", sans-serif;
-    cursor: url(../img/cursor.png), auto;
+    cursor: url(../img/cursor2.cur), auto;
 }  
 
 sup {
@@ -228,7 +228,7 @@ a.tw:hover {
 .proposition {
     padding: 55px 0 35px;
     text-align: center;
-    background: #19140f url(../img/background.jpg) center/cover;
+    background: #19140f url(../img/) center/cover;
 }
 
 .proposition p {

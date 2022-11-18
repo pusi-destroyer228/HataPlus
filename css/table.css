@@ -362,6 +362,10 @@ table {
     padding: 14px 0 14px 20px;
 }
 
+#last_tr {
+    box-shadow: none;
+}
+
 #cat2 {
     text-align: left;
 }
@@ -423,6 +427,14 @@ table {
     font-family: "RobotoSlab";
 }
 
+.house a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .house {
     display: flex;
     padding-bottom: 45px;
@@ -432,7 +444,12 @@ table {
     font-size: 8px;
 }
 
+.house a:hover ~ h4 {
+    text-decoration: underline;
+}
+
 figure {
+    position: relative;
     cursor: url(../img/cursor3.cur), auto;
 }
 
