@@ -94,7 +94,7 @@ a {
 
 .social a {
     display: block;
-    background: url(../img/sprite.png) no-repeat;
+    background: url(../img/sprite.png);
     transition: all .5s ease;
 }
 
@@ -105,30 +105,27 @@ a.fb {
 }
 
 a.fb:hover {
-    background-position: 0 -21px;
-    cursor: url(../img/facebook.png ), auto;
+    background-position: 0 -2.25rem;
 }
 
 a.in {
     width: 19px;
     height: 19px;
-    background-position: -12px 0;
+    background-position: 12rem 0;
 }
 
 a.in:hover {
-    background-position: -12px -21px;
-    cursor: url(../img/insta.png), auto;
+    background-position: 12rem -2.25rem;
 }
 
 a.tw {
     width: 20px;
     height: 16px;
-    background-position: -35px 0;
+    background-position: 6.3rem 0;
 }
 
 a.tw:hover {
-    background-position: -35px -21px;
-    cursor: url(../img/twit.png), auto;
+    background-position: 6.3rem -2.25rem;
 }
 
 .contact-info {
@@ -162,19 +159,19 @@ a.tw:hover {
 .tel:before {
     width: 19px;
     height: 17px;
-    background: url(../img/sprite.png) no-repeat -53px 0;
+    background: url(../img/sprite.png)  -92px -1px;
 }
 
 .mail:before {
     width: 22px;
     height: 17px;
-    background: url(../img/sprite.png) no-repeat -71px 0;
+    background: url(../img/sprite.png)  -70.2px 0;
 }
 
 .skype:before {
     width: 20px;
     height: 21px;
-    background: url(../img/sprite.png) no-repeat -92px 0;
+    background: url(../img/sprite.png)  60px 0;
 }
 
 .stick {
