@@ -14,7 +14,11 @@ body {
     margin: 0;
     font-family: "Arial", sans-serif;
     cursor: url(../img/cursor2.cur), auto;
-}  
+}
+
+a {
+    cursor: url(../img/cursor3.cur) ,auto;
+}
 
 sup {
     font-size: 0.6em;
@@ -89,7 +93,7 @@ a {
 
 .menu a:hover {
     color: #fd8300;
-    cursor: url(../img/pointer.png), auto;
+    cursor: url(../img/cursor3.cur) auto;
 }
 
 .social a {
@@ -142,11 +146,22 @@ a.tw:hover {
     margin: 10px 0;
 }
 
+.messengers a {
+    cursor: pointer;
+}
+
 .phones a {
     font: bold 18px/24px Arial;
     color: #25252c;
     text-decoration: none;
-    cursor: url(../img/pointer.png), auto;
+}
+
+.phones a:hover {
+    color: #fd8300;
+}
+
+.messengers a:hover {
+    color: #fd8300;
 }
 
 .icon:before {
@@ -192,7 +207,6 @@ a.tw:hover {
     font-size: 16px;
     line-height: 24px;
     color: #25252c;
-    cursor: url(../img/pointer.png), auto;
 }
 
 .skype {
@@ -374,7 +388,7 @@ p.prop-text {
 .aside-menu > ul > li:hover > a {
     color: #fff;
     background-color: #fd8300;
-    cursor: url(../img/pointer.png), auto;
+    cursor: url(../img/cursor3.cur), auto;
 }
 
 .aside-menu > ul > li > a:before {
@@ -412,7 +426,7 @@ p.prop-text {
 
 .sub-menu a:hover {
     background-color: #cecedd;
-    cursor: url(../img/pointer.png), auto;
+    cursor: url(../img/cursor3.cur) ,auto;
 }
 
 .footer {
