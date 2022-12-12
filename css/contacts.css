@@ -457,7 +457,12 @@ h3 {
 }
 
 .map {
+    margin-top: 20px;
     margin-bottom: 100px;
+}
+
+#huina {
+    padding-bottom: 0;
 }
 
 .text {
