@@ -385,6 +385,10 @@ hr {
     font-family: "Arial";
 }
 
+#nnn:hover {
+    border-bottom: 2px solid #000;
+}
+
 .grey {
     font-size: 14px;
     line-height: 21px;
@@ -495,6 +499,7 @@ textarea {
     border: 1px solid #c5c5d4;
     outline: none;
     resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .button-check {
