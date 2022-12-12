@@ -19,9 +19,9 @@
                             <ul>
                                 <li class="golovna"><a href="index.html">Головна</a></li>
                                 <li><a href="#">Про компанію</a></li>
-                                <li><a href="#">Наші будівлі</a></li>
+                                <li><a href="table.html">Наші будівлі</a></li>
                                 <li><a href="#">Акції</a></li>
-                                <li><a href="#">Контакти</a></li>
+                                <li><a href="contacts.html">Контакти</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -39,7 +39,10 @@
             <div class="main-info">
                 <div class="logo">
                     <a href="index.html">
-                        <picture><img src="img/logo.png" alt="Логотип будівельної компанії ХатаПлюс HataPlus"></picture>
+                        <picture>
+                            <source srcset="img/logo.webp" type="image/webp">
+                            <img src="img/logo.jpg" alt="Логотип будівельної компанії ХатаПлюс HataPlus">
+                        </picture>
                     </a>
                 </div>
                 <div class="contacts">
@@ -207,53 +210,67 @@
             </div>
         </section>
     </div>
-    <footer class="footer">
-        <div class="footer23">
-            <nav>
-                <ul class="footer-ul">
-                    <li><a href="">Будинки</a></li>
-                    <li><a href="">Інфраструктура</a></li>
-                    <li><a href="">Сервіс</a></li>
-                    <li><a href="">Новини</a></li>
-                </ul>
-            </nav>
-            <nav>
-                <ul class="footer-2ul">
-                    <li><a href="">Про компанію</a></li>
-                    <li><a href="">Страхування</a></li>
-                    <li><a href="">Контакти</a></li>
-                </ul>
-            </nav>
-            <div class="contact">
-                <picture><img src="img/phone.png" alt="Мобільний телефона"></picture>
-                <ul>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <ul class="column footer-menu">
                     <li>
-                        <a href="tel: +380971002525"><b>+38(097) 100-25-25</b></a>
+                        <a href="#">Будинки</a>
                     </li>
                     <li>
-                        <a href="tel: +380971002525"><b>+38(097) 100-25-25</b></a>
+                        <a href="#">Інфраструктура</a>
+                    </li>
+                    <li>
+                        <a href="#">Сервіс</a>
+                    </li>
+                    <li>
+                        <a href="#">Новини</a>
                     </li>
                 </ul>
+                <ul class="column footer-menu">
+                    <li>
+                        <a href="#">Про компанію</a>
+                    </li>
+                    <li>
+                        <a href="#">Страхування</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакти</a>
+                    </li>
+                </ul>
+                <div class="contact">
+                    <picture><img src="img/phone.png" alt="Мобільний телефона"></picture>
+                    <ul class="footer_cont">
+                        <li>
+                            <a href="tel: +380971002525"><b>+38(097) 100-25-25</b></a>
+                        </li>
+                        <li>
+                            <a href="tel: +380971002525"><b>+38(097) 100-25-25</b></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="posht">
+                    <ul>
+                        <li>
+                            <picture><img src="img/email.png" alt="Електрона пошта"></picture>
+                            <a href="mailto: hataplus@hata.com.ua">hataplus@hata.com.ua</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <picture><img src="img/skype.png" alt="Скайп"></picture>
+                            <a href="skype: hataplus">hataplus</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="pochta">
-                <ul>
-                    <li>
-                        <picture><img src="img/email.png" alt="Електрона пошта"></picture>
-                        <a href="mailto: hataplus@hata.com.ua">hataplus@hata.com.ua</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <picture><img src="img/skype.png" alt="Скайп"></picture>
-                        <a href="skype: hataplus">hataplus</a>
-                    </li>
-                </ul>
+        </div>
+        <div class="copy">
+            <div class="wrapper">
+                <p>&copy; Будівельна компанія “Хата Плюс” 2018.</p>
             </div>
         </div>
     </footer>
-    <div class="footer2">
-        <p>© Будівельна компанія “Хата Плюс” 2018.</p>
-    </div>
 </body>
 
 </html>
