@@ -465,19 +465,24 @@ h3 {
 }
 
 .input td {
-    padding-bottom: 10px;
+    padding-bottom: 9px;
     height: 40px;
     background-color: #ffffff;
 }
 
 input {
+    width: 100%;
     color: #9999a6;
     width: 230px;
     border: none;
     outline: none;
-    padding: 13px 10px;
+    padding: 12px 10px;
     border-radius: 3px;
     border: 1px solid #c5c5d4;
+}
+
+.td2 {
+    padding-left: 5px;
 }
 
 .tema {
