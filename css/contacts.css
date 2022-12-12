@@ -556,12 +556,13 @@ textarea {
 }
 
 .check:checked+label:after {
-    top: 6px;
-    left: 3.5px;
+    top: 7.5px;
+    left: 4.8px;
     width: 8px;
     height: 5px;
     border-left: 2px solid #1f1f56;
     border-bottom: 2px solid #1f1f56;
+    box-sizing: border-box;
     transform: rotate(-45deg);
 }
 
