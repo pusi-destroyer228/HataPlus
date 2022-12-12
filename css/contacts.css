@@ -46,7 +46,7 @@ header {
 }
 
 .wrapper {
-    box-shadow:0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -269,7 +269,7 @@ a.inst:hover {
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
 }
 
-.wrapper-second{
+.wrapper-second {
     max-width: 960px;
     font-family: "RobotoSlab";
     margin: 0 auto;
@@ -285,17 +285,17 @@ a.inst:hover {
     font-family: "RobotoSlab";
 }
 
-.image-iconss img{
+.image-iconss img {
     display: block;
     margin: 8px 0;
     padding: 7px 0 0 0;
 }
 
-.image-iconss{
+.image-iconss {
     padding: 0 10px 0 0;
 }
 
-.contacts a{
+.contacts a {
     text-decoration: none;
     font-size: 18px;
     color: #25252c;
@@ -304,17 +304,17 @@ a.inst:hover {
     cursor: url(../img/cursor-poin.cur), auto;
 }
 
-.contacts ul{
+.contacts ul {
     list-style: none;
     padding: 0;
 }
 
-.contacts a:hover{
+.contacts a:hover {
     color: #fd8300;
     text-decoration: underline;
 }
 
-.gmail a{
+.gmail a {
     text-decoration: none;
     font-size: 16px;
     color: #25252c;
@@ -322,60 +322,61 @@ a.inst:hover {
     margin: 8px 0;
     cursor: url(../img/cursor-poin.cur), auto;
 }
-.gmail ul{
+
+.gmail ul {
     list-style-type: none;
     padding: 0;
 }
 
-.gmail a:hover{
+.gmail a:hover {
     color: #fd8300;
     text-decoration: underline;
 }
 
-.gmail-image{
+.gmail-image {
     display: flex;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
 }
 
-.y{
+.y {
     margin-bottom: 0;
 }
 
-.x{
+.x {
     margin: 0;
 }
 
-.v{
+.v {
     margin-top: 0;
 }
 
-.g{
+.g {
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
     color: #25252c;
     font-family: "Arial";
-    text-decoration: none;
-}
-
-.g:hover{
     text-decoration: underline;
 }
 
-.num-ber{
+.g:hover {
+    text-decoration: none;
+}
+
+.num-ber {
     margin: 0;
     padding: 5px 0;
 }
 
-hr{
+hr {
     margin: 33px 0 36px 0;
 }
 
-#nnn{
+#nnn {
     text-decoration: none;
     font-size: 18px;
     line-height: 24px;
@@ -384,14 +385,14 @@ hr{
     font-family: "Arial";
 }
 
-.grey{
+.grey {
     font-size: 14px;
     line-height: 21px;
     color: #666666;
     font-family: "Arial";
 }
 
-h1{
+h1 {
     font-size: 24px;
     line-height: 24px;
     color: #24242b;
@@ -400,7 +401,7 @@ h1{
     margin-top: 60px;
 }
 
-.button-call a{
+.button-call a {
     text-decoration: none;
     font-size: 16px;
     color: #25252c;
@@ -413,7 +414,7 @@ h1{
     cursor: url(../img/cursor-poin.cur), auto;
 }
 
-.button-call a:hover{
+.button-call a:hover {
     background-color: #fd8300;
     color: #fff;
 }
@@ -424,7 +425,7 @@ h1{
     margin: 0 0 0 -25px;
 }
 
-.icons li a{
+.icons li a {
     cursor: url(../img/cursor-poin.cur), auto;
 }
 
@@ -451,31 +452,44 @@ h3 {
     overflow-x: hidden;
 }
 
+.map {
+    margin-bottom: 100px;
+}
+
 .text {
     max-width: 200px;
 }
 
 .input td {
+    padding-bottom: 10px;
     height: 40px;
     background-color: #ffffff;
 }
 
 input {
+    color: #9999a6;
     width: 230px;
     border: none;
     outline: none;
-    padding: 15px;
+    padding: 13px 10px;
     border-radius: 3px;
     border: 1px solid #c5c5d4;
 }
 
 .tema {
-    width: 439px;
+    padding-right: 7px;
+    width: 434px;
+}
+
+textarea td {
+    height: 40px;
 }
 
 textarea {
-    width: 455px;
-    padding: 15px 0 0 15px;
+    min-height: 30px;
+    color: #9999a6;
+    width: 440px;
+    padding: 15px 0 0 11px;
     border: none;
     border-radius: 3px;
     border: 1px solid #c5c5d4;
@@ -485,25 +499,32 @@ textarea {
 
 .button-check {
     margin: 6px;
-    margin-left: 12px;
     display: flex;
 }
 
-button {
-    border: none;
-    width: 140px;
-    height: 41px;
-    border-radius: 21px;
-    background-color: #fd8300;
+.button-send {
+    margin: 12px 0 0 0;
 }
 
-button a {
+.button-send a {
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
     font-weight: bold;
     font-family: "Arial";
     text-align: center;
+    text-decoration: none;
+    border-radius: 21px;
+    background-color: #fd8300;
+    border: 2px solid #fd8300;
+    padding: 12px 31px;
+    transition: 0.2s;
+}
+
+.button-send a:hover {
+    color: #25252c;
+    background-color: #fff;
+    border: 3px solid #fd8300;
 }
 
 .check {
@@ -546,7 +567,8 @@ label>p {
     margin: 0;
 }
 
-.check+label::before, .check+label::after {
+.check+label::before,
+.check+label::after {
     content: "";
     position: absolute;
 }
